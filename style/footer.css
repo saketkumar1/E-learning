@@ -1,0 +1,88 @@
+/* image icon added in this */
+
+.ellipse {
+    z-index: -1;
+    content: url(imageFolder/Ellipse\ 13ellipse.png);
+}
+
+.insta {
+    content: url(imageFolder/Frameinsta.png);
+}
+
+.fb {
+    content: url(imageFolder/Framefb.png);
+}
+
+.tweet {
+    content: url(imageFolder/Frametweet.png);
+}
+
+.linkedin {
+    content: url(imageFolder/Framelinked.png);
+}
+
+#footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin: 8rem;
+
+
+}
+
+
+.footerHead {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 27px;
+
+
+    color: #212121;
+}
+
+
+
+.footerCourse {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 33px;
+    text-decoration: none;
+
+
+
+    color: #74757E;
+
+}
+
+.footercolumn {
+    display: flex;
+    flex-direction: column;
+}
+
+.credit {
+    background: #6255A5;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 33px;
+    
+
+    color: #FFFFFF;
+    padding: 0.7rem;
+    text-align: center;
+
+}
+
+.footerintro {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 33px;
+    color: #74757E;
+
+}

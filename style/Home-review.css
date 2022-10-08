@@ -1,0 +1,102 @@
+#review{
+    margin-left: 5rem;
+
+}
+
+
+
+.reviewP {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 33px;
+    text-align: center;
+    color: #74757E;
+}
+
+.reviewContainer {
+    display: flex;
+    background-color: #F5F5F5;
+    flex-wrap: wrap;
+}
+
+.reviewBox {
+    width: 655px;
+    margin: auto;
+    background-color: #74757E;
+    
+}
+
+#gridRatio {
+  
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 33px;
+  margin-left: 50%;
+  color: #6255A5;
+}
+
+
+
+.grid {
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+    
+    background-color: #F5F5F5;
+    border: 2px solid #F1F0F0;
+}
+
+.reviewMainHead h2 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 60px;
+    text-align: center;
+    margin-top: 90px;
+    color: #212121;
+}
+
+.gridItem {
+    background-color: #F5F5F5;
+    ;
+    padding: 20px;
+    font-size: 30px;
+    /* height: 371px; */
+}
+
+.gridItem p {
+  
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 33px;
+  color: #74757E;
+}
+
+.gridItem h3 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 28px;
+   
+    color: #000000;
+}
+
+
+
+#reviwerName{
+   
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    color: #000000;
+}

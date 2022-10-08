@@ -1,0 +1,178 @@
+.priceHead {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 60px;
+
+
+    text-align: center;
+    color: #212121;
+}
+
+.courseList {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    justify-content: center;
+}
+
+.loadMoreButton {
+    background: #85D1A0;
+    border-radius: 6px;
+    padding: 16px 24px;
+    padding-left: 20px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 28px;
+    /* line-height: 29px; */
+    text-decoration: none;
+    margin-left: 43%;
+
+
+
+
+    color: #FFFFFF;
+}
+
+
+
+.courseType {
+
+
+    font-family: 'Inter';
+    font-style: normal;
+    margin: 2rem;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 60px;
+    text-decoration: none;
+
+}
+
+.courseType a {
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #212121;
+}
+
+.courseType a:hover {
+    color: #85D1A0;
+
+}
+
+
+
+.cardIcon {
+    display: flex;
+    flex-direction: row;
+    height: 1rem;
+    align-items: center;
+}
+
+.cardIcon img {
+    padding: 7px;
+}
+
+.cardPrice {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 28px;
+
+    color: #85D1A0;
+}
+
+.cardHead {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    color: #312A53;
+}
+
+.cardbtn {
+    width: 100px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 28px;
+    text-decoration: none;
+    border: solid;
+    border-radius: 5px;
+    text-align: center;
+    padding: 2px;
+    margin-top: 2rem;
+
+
+
+    color: #312A53;
+}
+
+.cardImg {
+    width: 3rem;
+}
+
+.cardMain {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-left: 8rem;
+    margin-right: 8rem;
+    margin-bottom: 3rem;
+}
+
+.cardHolder {
+    box-sizing: border-box;
+    border: 1px solid #F1F0F0;
+    border-radius: 6px;
+    margin: 20px;
+    padding: 18px;
+}
+
+.cardHolder:hover{
+    background: #6255A5;
+    color: #FFFFFF;
+}
+
+.cardHolder:hover .cardbtn{
+    background: #85D1A0;
+    color: #FFFFFF;
+}
+
+.cardHolder:hover .cardHead, .cardPrice{
+    color: #FFFFFF;
+}
+
+.cardHolder:hover #oneimg{
+    content: url(imageFolder/Framecomputerliegth.png);
+}
+
+.cardHolder:hover #twoimg{
+    content: url(imageFolder/Framedollarligth.png);
+}
+
+.cardHolder:hover #threeimg{
+    content: url(imageFolder/Framepeopleligth.png);
+}
+
+
+.cardHolder:hover #fourimg{
+    content: url(imageFolder/Framelanguagelight.png);
+}
+
+.cardHolder:hover #fiveimg{
+    content: url(imageFolder/Framehouselight.png);
+}
+
+.cardHolder:hover #siximg{
+    content: url(imageFolder/Framepclight.png);
+}
+

@@ -1,4 +1,11 @@
 @import "main.css";
+@import url(searchFeature.css);
+@import url(Home-collapsible.css);
+@import url(footer.css);
+@import url(Home-subscription.css);
+@import "Home-video.css";
+@import "Home-review.css";
+
 
 
 
