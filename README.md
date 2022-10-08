@@ -8,6 +8,10 @@
 
 #### Main screen
 ![1git](https://user-images.githubusercontent.com/66872047/194710039-93b4bc3b-9328-4c5d-ad19-3c2a5e647b9c.png)
+
+#### Login screen
+![7git](https://user-images.githubusercontent.com/66872047/194710444-77a054d3-b00a-43bb-954c-cc6362028e4b.png)
+
 #### Search bar
 
 ![2git](https://user-images.githubusercontent.com/66872047/194710064-0bc9b5c5-0434-4cd1-8798-76327788ad03.png)
