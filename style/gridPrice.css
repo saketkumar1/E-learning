@@ -147,32 +147,32 @@
     color: #FFFFFF;
 }
 
-.cardHolder:hover .cardHead, .cardPrice{
+.cardHolder:hover .cardHead{
     color: #FFFFFF;
 }
 
 .cardHolder:hover #oneimg{
-    content: url(imageFolder/Framecomputerliegth.png);
+    content: url(/imageFolder/Framecomputerliegth.png);
 }
 
 .cardHolder:hover #twoimg{
-    content: url(imageFolder/Framedollarligth.png);
+    content: url(/imageFolder/Framedollarligth.png);
 }
 
 .cardHolder:hover #threeimg{
-    content: url(imageFolder/Framepeopleligth.png);
+    content: url(/imageFolder/Framepeopleligth.png);
 }
 
 
 .cardHolder:hover #fourimg{
-    content: url(imageFolder/Framelanguagelight.png);
+    content: url(/imageFolder/Framelanguagelight.png);
 }
 
 .cardHolder:hover #fiveimg{
-    content: url(imageFolder/Framehouselight.png);
+    content: url(/imageFolder/Framehouselight.png);
 }
 
 .cardHolder:hover #siximg{
-    content: url(imageFolder/Framepclight.png);
+    content: url(/imageFolder/Framepclight.png);
 }
 
