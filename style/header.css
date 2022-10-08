@@ -1,0 +1,100 @@
+@import "main.css";
+
+
+
+
+
+
+header {
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px 10%;
+    height: 30px;
+    background-color: #fff;
+    margin-bottom: 30px;
+
+}
+
+@media (max-width: 480px) {
+    header{
+        display:none;
+    }
+}
+
+.navList {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+header .navList li {
+    margin-left: 2.5rem;
+}
+
+
+.navicon a {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 1.57rem;
+    font-weight: 600;
+    font-size: 16px;
+    color: #212121;
+    line-height: 19px;
+
+    letter-spacing: 0.04rem;
+}
+
+.navicon a:hover {
+    color: #212121;
+    border-bottom: .2rem solid #6255A5;
+
+
+}
+
+.navBtn {
+    background: #85D1A0;
+    border-radius: 6px;
+    padding: 16px 24px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.login {
+    text-decoration: none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    color: #6255A5;
+
+}
+
+
+
+.logo {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 27px;
+    color: #6255A5;
+}
