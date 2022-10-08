@@ -1,32 +1,10 @@
 /* image icon added in this */
 
-.ellipse {
-    z-index: -1;
-    content: url(imageFolder/Ellipse\ 13ellipse.png);
-}
-
-.insta {
-    content: url(imageFolder/Frameinsta.png);
-}
-
-.fb {
-    content: url(imageFolder/Framefb.png);
-}
-
-.tweet {
-    content: url(imageFolder/Frametweet.png);
-}
-
-.linkedin {
-    content: url(imageFolder/Framelinked.png);
-}
 
 #footer {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     margin: 8rem;
-
-
 }
 
 
