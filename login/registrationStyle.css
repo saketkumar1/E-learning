@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    overflow-y: hidden;
+}
+
+.logo {
+    position: fixed;
+    z-index: 1000;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 27px;
+    padding-left: 2rem;
+    padding-top: 1rem;
+
+    color: #6255A5;
+}
+
+
+.registrationSection {
+    height: 100vh;
+    display: flex;
+    background-color: #F9F7FF;
+
+
+}
+
+
+
+.textSection h2 {
+
+    color: #000000;
+    margin-top: 80px;
+    margin-left: 142px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+
+
+}
+
+.imagesSection {
+    width: 50%;
+    background: #F9F7FF;
+}
+
+.imagesSection img {
+    width: 90%;
+}
+
+.textSection {
+    width: 50%;
+    background: #f5f5f5;
+
+}
+
+.imagesSection h2 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 27px;
+    color: #6255A5;
+}
+
+.regInput {
+
+    width: 369px;
+    height: 62px;
+    padding-left: 20px;
+    margin-top: 1rem;
+    background: #F9F7FF;
+    border-radius: 6px;
+    margin-left: 142px;
+}
+
+
+
+.forgotPassword {
+    width: 142px;
+    height: 19px;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #B0B0B0;
+    margin-left: 412px;
+
+}
+
+.registrationButton {
+    width: 369px;
+    height: 62px;
+    background-color: #6255A5;
+    margin-left: 142px;
+}
+
+.continue {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    margin-left: 280px;
+    color: #B5B5B5;
+    margin-top: 50px;
+}
